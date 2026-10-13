@@ -1,5 +1,12 @@
 # Python, NumPy, data science, and MLOps labs
 
+## Overview
+
+Four local case studies that work through common Python machine learning tasks on synthetic data. The NumPy lab builds causal rolling statistics, z-scores, pairwise interactions and cosine neighbors; the quality-gate lab catches duplicate IDs, nulls, target leakage and train/test overlap; the training monitor reports holdout metrics, artifact hashes and PSI drift and only recommends a retrain. A FastAPI service validates input with Pydantic, serves single and batch predictions with logistic contributions, and refuses job approval when the target is prod.
+
+- **Built with:** Python, NumPy, pandas, scikit-learn, FastAPI, Pydantic, pytest
+- **Scope:** Local labs with synthetic data and tests; not production systems, and the Kubernetes YAML is a sketch that is never applied.
+
 <!-- project-guide:start -->
 ## Project guide
 
